@@ -1,0 +1,32 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+// Основные цвета фэнтези-темы
+$primary   : #462b82; // Королевский пурпурный
+$secondary : #8344ad; // Насыщенный фиолетовый
+$accent    : #e9c46a; // Золотой
+
+$dark      : #2c1d54; // Темно-фиолетовый
+$dark-page : #1a103c; // Глубокий фиолетовый
+
+// Статусные цвета
+$positive  : #2eb872; // Изумрудный зеленый
+$negative  : #db3450; // Рубиновый красный
+$info      : #3cbfdf; // Лазурный синий
+$warning   : #ffa726; // Янтарный
+
+// Дополнительные цвета для градиентов
+$primary-light: #6243a9;
+$secondary-light: #9a59c5;
+$accent-light: #f4d88c;

@@ -1,0 +1,136 @@
+// app global css in SCSS form
+@import './quasar.variables.scss';
+
+/* ==== ГРАДИЕНТЫ ==== */
+
+// Градиенты для фонов
+.bg-gradient-primary {
+  background: linear-gradient(135deg, $primary, $primary-light) !important;
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(135deg, $secondary, $secondary-light) !important;
+}
+
+.bg-gradient-accent {
+  background: linear-gradient(135deg, $accent, $accent-light) !important;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, $positive, adjust-hue($positive, 15deg)) !important;
+}
+
+.bg-gradient-info {
+  background: linear-gradient(135deg, $info, adjust-hue($info, 15deg)) !important;
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(135deg, $warning, adjust-hue($warning, 15deg)) !important;
+}
+
+.bg-gradient-danger {
+  background: linear-gradient(135deg, $negative, adjust-hue($negative, 15deg)) !important;
+}
+
+// Градиенты для карточек
+.card-gradient-light {
+  background: linear-gradient(135deg, #ffffff, #f5f5f5) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.card-gradient-primary {
+  background: linear-gradient(135deg, rgba($primary, 0.05), rgba($primary-light, 0.1)) !important;
+}
+
+/* ==== ТЕНИ ==== */
+.shadow-soft {
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.shadow-medium {
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08) !important;
+}
+
+.shadow-strong {
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
+
+/* ==== ОБЩИЕ СТИЛИ ==== */
+.rounded-card {
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.bordered-light {
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ==== АНИМАЦИИ ==== */
+.hover-scale {
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px) scale(1.02);
+  }
+}
+
+/* ==== КНОПКИ ==== */
+.btn-gradient-primary {
+  background: linear-gradient(45deg, $primary, $primary-light) !important;
+  color: white !important;
+}
+
+.btn-gradient-secondary {
+  background: linear-gradient(45deg, $secondary, $secondary-light) !important;
+  color: white !important;
+}
+
+.btn-gradient-accent {
+  background: linear-gradient(45deg, $accent, $accent-light) !important;
+  color: white !important;
+}
+
+/* Fantasy Elements */
+:root {
+  --magic-glow: 0 0 15px rgba(120, 85, 245, 0.5);
+  --magic-accent: linear-gradient(135deg, #a26af5, #6e42c1);
+  --magical-border: linear-gradient(to right, #c88cff, #7b64ff, #c88cff);
+}
+
+/* Общие стили для правильного отображения футера */
+html, 
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.q-page {
+  padding-bottom: 20px; /* Отступ внизу страницы */
+}
+
+/* Градиент для кнопки избранного */
+.q-btn--gradient-heart {
+  background: linear-gradient(135deg, #ff5252, #ff1744) !important;
+  color: white !important;
+  box-shadow: 0 2px 5px rgba(255, 23, 68, 0.3);
+  opacity: 1 !important;
+}
+
+.q-btn--gradient-heart:hover {
+  box-shadow: 0 3px 8px rgba(255, 23, 68, 0.5);
+  transform: translateY(-2px);
+}

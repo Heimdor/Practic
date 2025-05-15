@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Фон -->
+  <rect width="200" height="200" fill="#f5f0ff" rx="10" ry="10"/>
+  
+  <!-- Лезвие меча -->
+  <path d="M100,20 L120,40 L120,140 L100,160 L80,140 L80,40 Z" 
+        fill="#e0e0e0" stroke="#9e9e9e" stroke-width="2"/>
+  
+  <!-- Острие меча -->
+  <path d="M80,40 L100,20 L120,40" fill="none" stroke="#9e9e9e" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Кончик меча -->
+  <path d="M80,140 L100,160 L120,140" fill="none" stroke="#9e9e9e" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Гарда -->
+  <rect x="70" y="140" width="60" height="10" fill="#5D4037" stroke="#3E2723" stroke-width="2" rx="2" ry="2"/>
+  
+  <!-- Рукоять -->
+  <rect x="85" y="150" width="30" height="35" fill="#795548" stroke="#5D4037" stroke-width="2" rx="3" ry="3"/>
+  
+  <!-- Навершие -->
+  <ellipse cx="100" cy="185" rx="15" ry="8" fill="#5D4037" stroke="#3E2723" stroke-width="2"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="100" cy="160" r="4" fill="#FFCA28" stroke="#FFA000" stroke-width="1"/>
+  <circle cx="100" cy="170" r="4" fill="#FFCA28" stroke="#FFA000" stroke-width="1"/>
+  
+  <!-- Руны на лезвии -->
+  <line x1="90" y1="60" x2="110" y2="60" stroke="#9575CD" stroke-width="2"/>
+  <line x1="90" y1="80" x2="110" y2="80" stroke="#9575CD" stroke-width="2"/>
+  <line x1="90" y1="100" x2="110" y2="100" stroke="#9575CD" stroke-width="2"/>
+  <line x1="90" y1="120" x2="110" y2="120" stroke="#9575CD" stroke-width="2"/>
+  
+  <!-- Блики на лезвии -->
+  <line x1="95" y1="40" x2="95" y2="140" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.6"/>
+</svg> 

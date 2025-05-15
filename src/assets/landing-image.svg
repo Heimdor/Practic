@@ -1,0 +1,36 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shopping cart illustration -->
+  <circle cx="300" cy="200" r="150" fill="#E3F2FD" />
+  
+  <!-- Shopping cart -->
+  <path d="M380 220H260L240 150H400L380 220Z" fill="#BBDEFB" stroke="#1976D2" stroke-width="4" stroke-linejoin="round" />
+  <path d="M260 220L280 260H360L380 220" fill="#90CAF9" stroke="#1976D2" stroke-width="4" stroke-linejoin="round" />
+  <circle cx="290" cy="280" r="15" fill="#FFFFFF" stroke="#1976D2" stroke-width="4" />
+  <circle cx="350" cy="280" r="15" fill="#FFFFFF" stroke="#1976D2" stroke-width="4" />
+  
+  <!-- Shopping bags -->
+  <rect x="300" y="180" width="40" height="50" rx="5" fill="#81C784" stroke="#388E3C" stroke-width="3" />
+  <path d="M310 180V165C310 160 315 155 320 155C325 155 330 160 330 165V180" stroke="#388E3C" stroke-width="3" />
+  
+  <rect x="330" y="200" width="30" height="40" rx="4" fill="#FF8A65" stroke="#E64A19" stroke-width="3" />
+  <path d="M337 200V190C337 186 340 182 345 182C350 182 353 186 353 190V200" stroke="#E64A19" stroke-width="3" />
+  
+  <!-- Shopping Tags -->
+  <rect x="280" y="170" width="25" height="15" rx="3" fill="#FFE082" stroke="#FFA000" stroke-width="2" />
+  <circle cx="280" cy="177" r="3" fill="#FFA000" />
+  
+  <!-- Stars/sparkles -->
+  <path d="M220 140L225 150L235 152L225 154L220 164L215 154L205 152L215 150L220 140Z" fill="#FFC107" />
+  <path d="M380 140L383 145L390 147L383 149L380 154L377 149L370 147L377 145L380 140Z" fill="#FFC107" />
+  <path d="M320 90L325 100L335 102L325 104L320 114L315 104L305 102L315 100L320 90Z" fill="#FFC107" />
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="200" r="5" fill="#1976D2" />
+  <circle cx="400" cy="180" r="8" fill="#1976D2" />
+  <circle cx="380" cy="270" r="6" fill="#1976D2" />
+  <circle cx="220" cy="260" r="7" fill="#1976D2" />
+  
+  <!-- Add small curved lines for movement -->
+  <path d="M180 190C190 180 210 185 215 200" stroke="#1976D2" stroke-width="2" stroke-dasharray="4 2" />
+  <path d="M420 210C410 220 390 215 385 200" stroke="#1976D2" stroke-width="2" stroke-dasharray="4 2" />
+</svg> 

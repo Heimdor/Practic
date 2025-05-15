@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Фон -->
+  <rect width="200" height="200" fill="#f5f0ff" rx="10" ry="10"/>
+  
+  <!-- Основа нагрудника -->
+  <path d="M60,40 C60,40 60,90 70,120 C80,150 100,160 100,160 C100,160 120,150 130,120 C140,90 140,40 140,40 Z" 
+        fill="#B0BEC5" stroke="#78909C" stroke-width="3"/>
+  
+  <!-- Центральная часть нагрудника -->
+  <path d="M70,45 C70,45 70,85 80,115 C90,140 100,150 100,150 C100,150 110,140 120,115 C130,85 130,45 130,45 Z" 
+        fill="#CFD8DC" stroke="#78909C" stroke-width="1"/>
+  
+  <!-- Верхняя часть с выемками -->
+  <path d="M60,40 L80,50 L100,40 L120,50 L140,40" 
+        fill="none" stroke="#78909C" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Декоративные элементы -->
+  <circle cx="100" cy="70" r="15" fill="#9575CD" stroke="#5E35B1" stroke-width="2"/>
+  <path d="M90,70 L110,70 M100,60 L100,80" stroke="#5E35B1" stroke-width="2"/>
+  
+  <!-- Геометрические узоры -->
+  <path d="M75,90 L125,90" stroke="#78909C" stroke-width="2"/>
+  <path d="M70,110 L130,110" stroke="#78909C" stroke-width="2"/>
+  <path d="M75,130 L125,130" stroke="#78909C" stroke-width="2"/>
+  
+  <!-- Боковые крепления -->
+  <path d="M60,70 L50,70 M60,90 L45,90 M60,110 L50,110" stroke="#78909C" stroke-width="2"/>
+  <path d="M140,70 L150,70 M140,90 L155,90 M140,110 L150,110" stroke="#78909C" stroke-width="2"/>
+  
+  <!-- Блики на металле -->
+  <path d="M80,60 L90,60" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.7"/>
+  <path d="M110,60 L120,60" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.7"/>
+  <path d="M80,100 L90,100" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.7"/>
+  <path d="M110,100 L120,100" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.7"/>
+</svg> 
